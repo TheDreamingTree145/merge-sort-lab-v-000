@@ -1,5 +1,7 @@
 function findMinAndRemoveSorted(firstHalf, secondHalf) {
-  if (firstHalf[0] > secondHalf[0]) {
+  let firstMin = firstHalf[0];
+  let secondMin = secondHalf[0];
+  if (firstMin < secondMin) {
     return firstHalf.shift()
   } else {
     return secondHalf.shift()
