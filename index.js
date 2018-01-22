@@ -4,7 +4,7 @@ function findMinAndRemoveSorted(array) {
 
 function merge(firstHalf, secondHalf) {
   let sorted = []
-  if (firstHalf.length != 0 && secondHalf.length != 0) {
+  while (firstHalf.length != 0 && secondHalf.length != 0) {
     
   }
 }
